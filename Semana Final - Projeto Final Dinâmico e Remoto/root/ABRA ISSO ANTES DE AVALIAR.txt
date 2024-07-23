@@ -1,0 +1,15 @@
+Olá! Beleza?
+Pensei em deixar alguns avisos e/ou sugestões para quem está avaliando
+
+- Para testar o conteúdo dinamico dos detalhes dos albuns, clique em "Akina" e em "Akagi".
+
+- Todos os outros irão aparecer os mesmos detalhes de Akina, já que eu coloquei uma função para
+isso porque não tive tempo de editar todas as 9538457 imagens no JSONSERVER, mas a funcionalidade está presente.
+
+- A pasta 'img' possui mais imagens do que usei no trabalho final, apenas para referência como na linha anterior por exemplo.
+
+- Por fim recomendo abrir a pasta usando o Visual Studio Code, por meio da extensão LiveServer, sei que
+isso pode ser óbvio pra muita gente mas ouvi relatos durante a primeira correção que muita gente não sabia disso.
+
+** Link do JSON - Abra esse link e clique em "RUN" antes de abrir o projeto para que tudo esteja funcionando corretamente.
+https://replit.com/@douglasnicsg/Json-Server-Web-API

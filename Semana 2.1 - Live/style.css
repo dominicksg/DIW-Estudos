@@ -1,0 +1,130 @@
+/* Definição de elementos */
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+
+ul {
+    list-style-type: none;
+}
+
+header {
+    display: inline-block;
+    width: 100%;
+    background-color: rgb(64, 233, 64);
+    height: 50px;
+}
+
+header h3 {
+    float: left;
+    margin: 10px 10px;
+}
+
+aside {
+    float: left;
+    width: 25%;
+    padding: 10px 10px;
+    background-color: aqua;
+}
+
+main {
+    float: left;
+    width: 70%;
+    background-color: lightgoldenrodyellow;
+}
+
+footer {
+    float: left;
+    margin-top: 10px;
+    width: 100%;
+    background-color: lightgray;
+}
+
+footer p {
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+/**************************************/
+
+/* Caixa de pesquisa no menu lateral */
+.caixaPesquisa {
+    margin: 5px 15px;
+}
+
+/**************************************/
+
+/* Caixa/card com os artigos sobre os projetos*/
+
+.caixaPost {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 5px 5px;
+    border: 1px black solid;
+    border-radius: 8px;
+}
+
+.caixaPost img {
+    float: left;
+    width: 70px;
+    height: 70px;
+    padding: 0px 5px;
+}
+
+.caixaPost h4 {
+    color: darkred;
+}
+
+.caixaPost p {
+    font-size: small;
+}
+
+/******************************************/
+
+
+/* Menu lateral */
+#menuBarraLateral {
+    margin: 15px 15px;
+}
+
+#menuBarraLateral li {
+    padding-left: 20px;
+}
+
+#menuBarraLateral a:hover {
+    color: darkred;
+}
+
+/******************************************/
+
+/* Menu superior */
+#menuBarraSuperior {
+    float: right;
+    margin: 10px 10px;
+}
+
+#menuBarraSuperior li {
+    display: inline;
+    font-size: smaller;
+    padding-left: 12px;
+}
+
+#menuBarraSuperior a {
+    text-decoration: none;
+}
+
+#menuBarraSuperior a:hover {
+    text-decoration: underline;
+    color: white;
+}
+
+/******************************************/

@@ -1,0 +1,82 @@
+/* Definições gerais - Inicio */
+
+html{
+   height: 100%; 
+}
+
+body, ul, li, p{
+    margin: 0px;
+    padding: 0px;
+    font-size: 1rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1{
+    font-size: 120%;
+    text-align: center;
+}
+
+img{
+    max-width: 100%;
+    display: block;
+}
+
+/* Definições gerais - Fim */
+
+
+/* CSS Cabeçalho - Inicio */
+
+.header a{
+    text-decoration: none;
+    color: white;
+}
+
+.header{
+   background: #727272;
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: space-between;
+   align-items: center;
+   padding: 20px;
+}
+
+.menu{
+    display: flex;
+}
+
+.menu li{
+    list-style: none;
+    margin-left: 10px;
+}
+
+/* CSS Cabeçalho - Fim */
+
+/* CSS Rodapé - Inicio */
+
+.footer{
+    background: #727272;
+    color: white;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+ }
+ /* CSS Rodapé - Fim */
+
+
+/* CSS Flexvbox 1 - Inicio */
+
+.flex{
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.flex > div{
+    flex: 1 1 200px;
+    margin: 10px;
+}
+
+/* CSS Flexvbox 1 - Fim */
